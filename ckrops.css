@@ -1,0 +1,194 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #000000;
+  background-color: aquamarine;
+/*  background-color: #DDFFFF; */
+}
+h2 {
+  font-size: 24px;
+  /* text-transform: uppercase; */
+  color: #0000FF;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #0000FF;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.config {
+	font-family: "Courier New", Courier, mono;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #00FF00;
+	background-color: #000000;
+}
+.navbar {
+ margin-bottom: 0;
+ background-color: #AAFFFF;
+ z-index: 9999;
+ border: 0;
+ font-size: 12px !important;
+ line-height: 1.42857143 !important;
+ letter-spacing: 4px;
+ border-radius: 0;
+ font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+ color: #00f !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+ color: #f4511e !important;
+ background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+ border-color: transparent;
+ color: #fff !important;
+}
+.jumbotron {
+ font-family: Montserrat, sans-serif;
+ background-color: #DDFFFF;
+ color: #0000FF;
+ padding: 100px 25px;
+}
+.container-fluid {
+ padding: 100px 0px;
+}
+.bg-grey {
+ background-color: #DDFFFF;
+}
+.logo {
+ color: #0000FF;
+ font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+ .col-sm-4 {
+  text-align: center;
+  margin: 25px 0;
+ }
+}
+.item h4 {
+ font-size: 19px;
+ line-height: 1.375em;
+ font-weight: 400;
+ font-style: italic;
+ margin: 70px 0;
+}
+.item span {
+ font-style: normal;
+}
+.slideanim {visibility:hidden;}
+.slide {
+ /* The name of the animation */
+ animation-name: slide;
+ -webkit-animation-name: slide;
+ /* The duration of the animation */
+ animation-duration: 1s;
+ -webkit-animation-duration: 1s;
+ /* Make the element visible */
+ visibility: visible;
+}
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+ 0% {
+  opacity: 0;
+  transform: translateY(70%);
+ }
+ 100% {
+  opacity: 1;
+  transform: translateY(0%);
+ }
+}
+@-webkit-keyframes slide {
+ 0% {
+  opacity: 0;
+  -webkit-transform: translateY(70%);
+ }
+ 100% {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+ }
+}
+#hlist li
+{
+display: inline;
+list-style-type: none;
+padding-left:0%;
+padding-right:0%;
+}
+nav {
+ text-align: center;
+}
+footer {
+ text-align: center;
+}
+A:link { COLOR: #0000FF; }
+#loaderDiv {
+  display:none;
+}
+.bg-panel {
+  /* background-image: url("../images/greenTexture.jpg");
+  background-image: url("../images/amazon.jpg");
+  background-color: #CCFFCC;
+  background-color: #3EC; */
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.apps {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;
+}
+
+.icon-apps {
+  /* background-color: #FFFFFF; */
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 7px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.box-image {
+  /* background-color: #FFFFFF; */
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 25px;
+}
+
+.frame-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  /*padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
