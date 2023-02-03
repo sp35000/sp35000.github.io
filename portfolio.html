@@ -1,55 +1,275 @@
 <!doctype html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="sig.js"></script>
-    <title>Celso Kikuchi - IT Portfolio</title>
-    <link rel="stylesheet" href="ckrops.css" />
-  </head>
-  <body>
-      <nav class="navbar navbar-default navbar-fixed-top">
-       <div class="container">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="sig.js"></script>
+  <title>Celso Kikuchi - Portfolio</title>
+  <link rel="stylesheet" href="ckrops.css" />
+</head>
+<body>
+  <div class="content-fluid col-sm-12">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-        </button>
-       </div>
-       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-         <li><a href="#about">About</a></li>
-         <li><a href="#projects">Projects</a></li>
-         <li><a href="#message">Message</a></li>
-        </ul>
-       </div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#message">Message</a></li>
+          </ul>
+        </div>
       </div>
-     </nav>
-    <br/>
-    <br/>
+    </nav>
 
-    <div align="center">
-    <h1>Celso Kikuchi - IT Portfolio</h1>
+    <div id="about">
+      <div class="container" style="width:70%;padding-top:5%">
+        <div class="row">
+          <h1 align="center">Portfolio</h1>
+          <h2 class="text-center">About</h2>
+          <div class="col-sm-12 columns bg-info center" style="padding-left:5%;padding-right:5%">
+            <p align="center"><br/><img src="CelsoK-LinkedInBanner.png"/ width="50%"></p>
+            <p>
+              <br/>Hello, my name is Celso Kikuchi.<br/>
+              I am a Brazilian IT Professional, and lives in Fortaleza-CE, Brazil.<br/>
+              I was originally an Electronic Technician, started working with IT support, while I was studying Business Administration.<br/>
+              After I graduated, I decided to continue working with IT, having now more than 30 years of work experience.<br/>
+              I considered myself very lucky, as I worked and learned IT most of my career in excellent jobs with fantastic colleagues.<br/>
+              I worked for 16 years at Serpro, the biggest Latin American public IT agency, attending Brazilian government.
+              Despite I don't have a background in Science Computing, their several training courses gave me a lot of knowledge.<br/>
+              I am experienced in Development (web and mainframe), Data Warehouse, and DevOps.</p>
+              <p align="center"><br/><br/><a href="#" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="about" class="container-fluid">
-     <h2 class="text-center">About</h2>
+    <div id="projects">
+      <div class="container" style="width:70%;padding-top:5%">
+        <div class="row">
+          <h2 class="text-center">Projects</h2>
+
+          <div class="col-sm-12 columns bg-info center" style="padding-left:5%;padding-right:5%">
+            <h3 class="text-center">Web Development</h3>
+            <p>Developed different kind of applications as full stack developer.</p>
+            <ul>
+              <li>Front end using .Net or PHP; old ones with Asp or Perl.</li>
+              <li>Back end using Java, PHP or Perl to connect to MySql or Oracle.</li>
+              <li>Many integrations with mainframe.</li>
+              <li>Wrote shell scripts and procedures in PL/SQL.</li>
+            </ul>
+            <p><strong>Many of the applications above works with a database with more than one billion registers (all Brazilian tax payments).<br/>
+              <p><a onclick="showHide('pagtoweb')">Show/Hide</a> an example of search screen in .Net and results from Oracle, blurred sensitive data.</strong></p>
+              <div id="pagtoweb" style="display:none">
+                <p>
+                  <a href="PAGTOWEB-Consulta.png" target="_blank"><img id="pagtowebConsulta" src="PAGTOWEB-Consulta.png" alt="Search screen" width="100%" /></a>
+                  <br/><br/>
+                  <a href="PAGTOWEB-Listagem.png" target="_blank"><img  id="pagtowebListagem" src="PAGTOWEB-Listagem.png" alt="Result list" width="100%" /></a>
+                </p>
+                  <p align="center"><a href="#" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+
+          <div class="container" style="width:70%">
+            <div class="row">
+              <div class="col-sm-12 columns bg-info center" style="padding-left:5%;padding-right:5%">
+                <h3 class="text-center">DevOps Activities</h3>
+                <p>During 16 years at Serpro, our DevOps internal team needed to help in many technology changes like:</p>
+                <ul>
+                  <li>migrate from phisical or virtual servers to integrated environments using OpenStack or OpenShift;</li>
+                  <li>then later, from this environment to an IaaS structure using Ansible;</li>
+                  <li>several repository migrations from Rational ClearCase to CVS, then later from CVS to Git;</li>
+                  <li>when applications already born in a modern environment, setup Continuos Integration, and cloud from Development to Production.</li>
+                </ul>
+                <p align="center"><a href="#" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
+              </div>
+            </div>
+          </div>
+          <br/>
+
+          <div class="container" style="width:70%">
+            <div class="row">
+              <div class="col-sm-12 columns bg-info center" style="padding-left:5%;padding-right:5%">
+                <h3 class="text-center">Mainframe</h3>
+                <p>Improved mainframe legacy systems in Natural/Adabas and Cobol (usually without documentation neither the original developers), reducing production incident tickets by almost 90%, with these steps:</p>
+                <ol>
+                  <li>Study integrations, jobs, sysouts, database, low-level code, and whatever to find where the problem is.</li>
+                  <li>Solve the problem, which can be in any of the points above.</li>
+                  <li>Correct the inconsistencies in the database introduced before the correction.</li>
+                </ol>
+                <p><strong>I guess the worst problem I've solved was an external client app calling our mainframe routine with no results from the database. The problem was in the application architecture (integration between 2 CICS) which was failing just in a specific case, and then it had passed the tests.<br/>
+                  <p><a onclick="showHide('controlblock')">Show/Hide</a> a sample Cobol I used to work (Control Block to access Adabas database), jumped sensitive data.</strong></p>
+                  <div id="controlblock" style="display:none;align:left;">
+                    <p><pre style="color: rgb(0,255,0);background-color: rgb(0,0,0);border: 0px; white-space: pre-wrap">
+                      01  FILLER.
+                      05  WK-CONTROL-BLOCK.
+                      10  HOST-ID          PIC  X(01) VALUE X'30'.
+                      10  FILLER           PIC  X(01).
+                      10  WK-COMMAND-CODE  PIC  X(02).
+                      10  COMMAND-ID       PIC  X(04).
+                      10  FILE-NUMBER      PIC  S9(04) COMP.
+                      10  WK-RESPONSE-CODE PIC  S9(04) COMP.
+                      10  FILLER REDEFINES WK-RESPONSE-CODE.
+                      15  BANCO-NUMBER PIC  S9(04) COMP.
+                      10  ISN-DEFINITIONS.
+                      15  WK-ISN          PIC S9(07) COMP.
+                      15  ISN-LOWER-LIMIT PIC S9(07) COMP.
+                      15  WK-ISN-QUANTITY PIC S9(07) COMP.
+                      10  BUFFER-LENGTHS.
+                      15  FORMAT-BUFFER-LENGTH PIC S9(03) COMP.
+                      15  RECORD-BUFFER-LENGTH PIC S9(03) COMP.
+                      15  SEARCH-BUFFER-LENGTH PIC S9(03) COMP.
+                      15  VALUE-BUFFER-LENGTH  PIC S9(03) COMP.
+                      15  ISN-BUFFER-LENGTH    PIC S9(03) COMP.
+                      10  COMMAND-OPTION-1 PIC  X(01).
+                      10  COMMAND-OPTION-2 PIC  X(01).
+                      10  WK-ADDITIONS-1   PIC  X(08).
+                      10  WK-ADDITIONS-2   PIC  X(04).
+                      10  FILLER REDEFINES WK-ADDITIONS-2.
+                      15 FILLER        PIC  X(02).
+                      15 WK-SUB-CODE   PIC  S9(02) COMP.
+                      10  ADDITIONS-3      PIC  X(08).
+                      10  ADDITIONS-4      PIC  X(08).
+                      10  FILLER           PIC  X(08).
+                      10  COMMAND-TIME     PIC  S9(09) COMP.
+                      10  USER-AREA        PIC  X(04).
+                      05  WK-FORMAT-BUFFER     PIC  X(121).
+                      05  WK-RECORD-BUFFER     PIC  X(269).
+                      05  WK-REG-PAGTO REDEFINES WK-RECORD-BUFFER.
+                      ...
+                      05  WK-SEARCH-BUFFER     PIC  X(03).
+                      05  WK-ISN-BUFFER       PIC S9(08)  COMP.
+                      05  WK-VALUE-BUFFER-2   PIC  X(20).
+                      05  FILLER REDEFINES  WK-VALUE-BUFFER-2.
+                      10 SP-CNPJ-2         PIC 9(12).
+                      10 SP-DT-2           PIC X(08).
+
+                    </pre>
+                  </div>
+                  <p align="center"><a href="#" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
+                </div>
+              </div>
+            </div>
+            <br/>
+
+            <div class="container" style="width:70%">
+              <div class="row">
+                <div class="col-sm-12 columns bg-info center" style="padding-left:5%;padding-right:5%">
+                  <h3 class="text-center">Data Warehouse</h3>
+                  <p>Developed more than 10 Data Warehouse applications (Data Modeling, Extract-Transform-Load, Publication, and OLAP Reports), using the tools PowerCenter and MicroStrategy.</p>
+                  <p><strong>Many of the Data Warehouse above works with more than one billion registers (all Brazilian tax payments). A smaller one deals with just millions (all Brazilian vehicles' database).</strong></p>
+                  <p align="center"><a href="#" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
+                </div>
+              </div>
+            </div>
+            <br/>
+
+          </div>
+
+          <div id="message">
+            <div class="container" style="width:70%;padding-top:5%">
+              <div class="row">
+                <h2 class="text-center">Message</h2>
+                <div class="col-sm-12 columns bg-info center" style="padding-left:10%;padding-right:10%">
+
+                  <!-- .wpforms-container -->
+                  <div id="wpforms-456" width="80%" class="text-center">
+                    <br/>
+                    <form id="wpforms-form-456" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="456" method="post" enctype="multipart/form-data" action="/nomad/portfolio-contact-form/" data-token="34ba8f9f57b76d751730c0b6f740a1cb">
+                      <noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                      First&nbsp;Name&nbsp;<input type="text" id="wpforms-456-field_0" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][0][first]" required><br/><br/>
+                      Last&nbsp;Name&nbsp;&nbsp;<input type="text" id="wpforms-456-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][0][last]" required><br/><br/>
+                      e-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" id="wpforms-456-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" required><br/><br/>
+                      Message&nbsp;&nbsp;&nbsp;
+                      <textarea id="wpforms-456-field_2" name="wpforms[fields][2]"></textarea><br/>
+                      <div class="wpforms-submit-container text-center">
+                        <input type="hidden" name="wpforms[id]" value="456">
+                        <input type="hidden" name="wpforms[nonce]" value="fd2ed4429f" />
+                        <input type="hidden" name="wpforms[author]" value="1">
+                        <input type="hidden" name="wpforms[post_id]" value="460">
+                        <input type="reset" />&nbsp;&nbsp;&nbsp;
+                        <button type="submit" name="wpforms[submit]" id="wpforms-submit-456" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button>
+                        <img src="https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner jetpack-lazy-image" style="display: none;" width="26" height="26" alt="Loading" data-lazy-src="https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                        <noscript><img data-lazy-fallback="1" src="https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading" /></noscript>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- .wpforms-container -->
+                  <!-- <p>If you feel I can help your company to solve a problem and deliver better results, feel free to contact me</p>
+                  <center>
+                  <strong>sp35000 &lt;no spam&gt; <br/>
+                  at yahoo.com.br</strong>
+                </p> -->
+                <p align="center"><a href="#" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a></p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="projects" class="container-fluid">
-     <h2 class="text-center">Projects</h2>
-    </div>
+    <!-- wpforms begin -->
+    <script src='https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.19.5' id='wpforms-validation-js'></script>
+    <script src='https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?ver=1.1.2' id='wpforms-mailcheck-js'></script>
+    <script src='https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?ver=1.0.0' id='wpforms-punycode-js'></script>
+    <script src='https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/js/utils.min.js?ver=1.7.9.1' id='wpforms-generic-utils-js'></script>
+    <script src='https://work4love.net/nomad/wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js?ver=1.7.9.1' id='wpforms-js'></script>
+    <script>
+    /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);
+    </script>
+    <script>
+    ( function() {
+      function wpforms_js_error_loading() {
 
-    <div id="contact" class="container-fluid">
-     <h2 class="text-center">Message</h2>
-    </div>
+        if ( typeof window.wpforms !== 'undefined' ) {
+          return;
+        }
 
+        var forms = document.querySelectorAll( '.wpforms-form' );
 
-  </body>
+        if ( ! forms.length ) {
+          return;
+        }
+
+        var error = document.createElement( 'div' );
+
+        error.classList.add( 'wpforms-error-container' );
+        error.innerHTML = 'Heads up! WPForms has detected an issue with JavaScript on this page. JavaScript is required for this form to work properly, so this form may not work as expected. See our <a href="https://wpforms.com/docs/getting-support-wpforms/" target="_blank" rel="noopener noreferrer">troubleshooting guide</a> to learn more or contact support.<p>This message is only displayed to site administrators.</p>';
+
+        forms.forEach( function( form ) {
+
+          if ( ! form.querySelector( '.wpforms-error-container' ) ) {
+            form.insertBefore( error.cloneNode( true ), form.firstChild );
+          }
+        } );
+      };
+
+      if ( document.readyState === 'loading' ) {
+        document.addEventListener( 'DOMContentLoaded', wpforms_js_error_loading );
+      } else {
+        wpforms_js_error_loading();
+      }
+    }() );
+  </script><script type='text/javascript'>
+  /* <![CDATA[ */
+  var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"","locale":"en","wpforms_plugin_url":"https:\/\/work4love.net\/nomad\/wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"https:\/\/work4love.net\/nomad\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","page_title":"Portfolio Contact Form","page_id":"460"}
+  /* ]]> */
+</script>
+<!-- wpforms end -->
+</body>
 </html>
