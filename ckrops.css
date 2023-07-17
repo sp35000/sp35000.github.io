@@ -2,7 +2,8 @@ body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
   color: #000000;
-  background-color: aquamarine;
+  background-color: #EEFFFF;
+  /* background-color: aquamarine; */
 /*  background-color: #DDFFFF; */
 }
 h2 {
@@ -31,7 +32,7 @@ h4 {
 }
 .navbar {
  margin-bottom: 0;
- background-color: #AAFFFF;
+ /* background-color: #AAFFFF; */
  z-index: 9999;
  border: 0;
  font-size: 12px !important;
